@@ -1,0 +1,37 @@
+.metrics-chart {
+  width: 100%;
+}
+
+.chart-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.chart-btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #3498db;
+  background-color: white;
+  color: #3498db;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.chart-btn:hover {
+  background-color: #ecf0f1;
+}
+
+.chart-btn.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.chart-empty {
+  text-align: center;
+  padding: 3rem;
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
